@@ -46,7 +46,6 @@ body{
     text-decoration: none;
     font-size: 25px;
     transition: 0.4s;
-    box-sizing: border-box;
 }
 
 .search-txt{
