@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji";
+    letter-spacing: .05em;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    background-image:linear-gradient(to right, #a8edea,#fed6e3);
+}
+
+.login-wrapper{
+    background-color: #fff;
+    width: 250px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 0 50px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-wrapper .header{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 200px;
+    color: #edb8a8;
+}
+
+.login-wrapper .form-wrapper .input-item {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 0;
+    padding: 10px;
+    border-bottom: 1px solid rgb(128,125,125);
+    font-size: 12px;
+    outline: none;
+}
+
+.login-wrapper .form-wrapper .input-item::placeholder{
+    text-transform: uppercase;
+}
+
+.login-wrapper .form-wrapper .submit{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: 40px;
+    background-image: linear-gradient(to left, #a8edea,#fed6e3);
+    color: #ffffff;
+}
+
+
+.login-wrapper .msg{
+    text-align: center;
+    line-height: 100px;
+    color:#666666;
+}
+
+.login-wrapper .msg a{
+    text-decoration: none;
+    color: #edb8a8;
+    font-weight: bold;
+
+}
