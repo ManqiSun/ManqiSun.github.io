@@ -11,6 +11,6 @@
 
     预览地址：https://manqisun.github.io/dynamic-search-bar/index.html
     
-4. 轮播图 Slidershow with Navigation Bar
+4. 轮播图 Slideshow with Navigation Bar
 
     预览地址：https://manqisun.github.io/slideshow-with-nav-button/index.html
