@@ -21,8 +21,7 @@ body{
     background: #406370;
     height: 40px;
     border-radius: 40px;
-    padding: 10px;
-    
+    padding: 10px; 
 }
 
 .search-bar:hover .search-txt{
@@ -32,6 +31,7 @@ body{
 
 .search-bar:hover .search-btn{
     background: rgba(245,150,112, .7);
+    box-sizing: border-box;  
 }
 .search-btn{
     color: #70e1f5;
